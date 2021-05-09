@@ -25,24 +25,7 @@ const Footer = () => {
                         <a>terms and conditions</a>
                     </Link>
                 </div>
-                <div className='footer'>
-                <h3>Categories</h3>
-                    <Link href='/'>
-                        <a>Accessories</a>
-                    </Link>
-                    <Link href='/'>
-                        <a>Jewelries</a>
-                    </Link>
-                    <Link href='/'>
-                        <a>Store</a>
-                    </Link>
-                    <Link href='/'>
-                        <a>Privacy Policy</a>
-                    </Link>
-                    <Link href='/'>
-                        <a>terms and conditions</a>
-                    </Link>
-                </div>
+                
                 <div className='footer'>
                 <h3>Categories</h3>
                     <Link href='/'>

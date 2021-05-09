@@ -19,15 +19,26 @@ a:hover{
      background-color: black;
      justify-content: space-around;
      align-items: center;
-     height: 40vh;
+     height: auto;
      padding: 10px 40px;
  }
  .footer{
-     width: 15%;
+     width: 25%;
      height: 30vh;
      /* background-color: blue; */
      /* background-color: orange; */
      justify-content: center;
      color: white;
 
+ }
+ @media screen and (max-width: 800px){
+     .footer-container{
+         display: block;
+     }
+    .footer{
+        width: 100%;
+        background-color: red;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
  }
