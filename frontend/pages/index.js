@@ -13,7 +13,7 @@ export default class App extends Component {
     }
     render() {
       return (
-        <div className='content'>
+        <div >
           <Navbar  />
           <Landing />
           <Footer />

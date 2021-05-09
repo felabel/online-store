@@ -30,6 +30,12 @@ nav{
     width:100%;
     box-shadow: 14px 11px 15px rgba(0,0,0,0.07);
 }
+.hamburger{
+    display: none;
+}
+.cancel{
+    display: none;
+}
 #logo{
     text-decoration: none;
     color: black;
@@ -46,7 +52,7 @@ nav{
     height: 40px;
     border-radius: 4px;
     border: 1px solid #a1a1a1;
-    padding: 5px 10px;
+    padding: 5px 15px;
     outline: none;
 }
 .header-right{
@@ -67,5 +73,40 @@ nav{
 }
 .header-right a:hover{
     /* border: 2px solid #f6d5dc; */
-    background-color:#f6d5dc;
+    background-color:tomato;
+    color: #fff;
+    border: 1px solid grey;
+
+}
+/* @media screen and (min-width: 1000px) {
+    .search-div{
+        display: none;
+}
+.header-right{
+    display: none;
+} */
+/* } */
+@media screen and (max-width: 600px) {
+    .body{
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        width: 100%;
+    }
+
+    .search-div{
+            display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .cancel{
+        display: none;
+        cursor: pointer;
+    }
 }
