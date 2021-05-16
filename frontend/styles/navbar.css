@@ -78,14 +78,7 @@ nav{
     border: 1px solid grey;
 
 }
-/* @media screen and (min-width: 1000px) {
-    .search-div{
-        display: none;
-}
-.header-right{
-    display: none;
-} */
-/* } */
+
 @media screen and (max-width: 600px) {
     .body{
         padding: 0;
@@ -108,5 +101,11 @@ nav{
     .cancel{
         display: none;
         cursor: pointer;
+    }
+    .nav{
+        padding:30px 70px;
+    }
+    #logo{
+        font-size: 25px;
     }
 }

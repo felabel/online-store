@@ -1,0 +1,143 @@
+/* for products view */
+.product_views{
+    /* display: flex; */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 100px auto 20px auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-holder{
+    width: 24%;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 14px 6.5px 15px rgba(0,0,0,0.2);
+
+    
+}
+
+                           
+.product-image-holder{
+    align-items: center;
+    
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 60%;
+    background-color: rgb(252,227,233);
+    background: linear-gradient(90deg, rgb(243, 236, 238) 0%, rgb(250, 213, 222) 35%, rgb(250, 200, 211) 100%);
+    
+}
+.product-images{
+    
+    width: 60%;
+    height: 100%;
+    align-self: center;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    margin-left: 50px;
+    background: url('/images/casual-female wears.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+.product-details{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 20px;
+    width: 100%;
+    height: 40%;
+    /* background-color: seagreen; */
+}
+
+.product-name, .product-description, .product-price{
+    font-weight: 700;
+    padding-top: 10px;
+} 
+.product-description{
+    padding-bottom: 15px;
+}
+.product-view{
+    padding: 5px 0px;
+    width: 120px;
+    margin-top: -12%;
+    margin-left: 55%;
+    background-color: red;
+    color: blanchedalmond;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product-view:hover{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    padding: 5px, 18px;
+    border: 2px solid red;
+    color: red;
+    transition: all 0.8s;
+}
+
+ /* responsive design  */
+ @media screen and (max-width: 1200px){
+    .card-holder{
+        width: 30%;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .product-view{
+        margin-top: -10%;
+        margin-left: 45%;
+    }
+ }
+@media screen and (max-width: 800px) {
+    .card-container{
+        flex-wrap: wrap;
+
+    }
+    .card-holder{
+        width: 40%;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+   
+    .card-container{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .card-holder{
+        width: 70%;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .product-images{
+        margin-left: 20%;
+
+    }
+    .product-view{
+        margin-top: -5%;
+        margin-left: 55%;
+    }
+    .product-description{
+        padding-bottom: 20px;
+    }
+}
+
+

@@ -100,7 +100,7 @@ export default class Navbar extends Component {
                 <a className='shift-res sign-in'>Sign-in</a>
             </Link>
             
-            <Link href='/'>
+            <Link href='/cart_view'>
                 <a className='shift-res cart'>cart</a>
             </Link>
             </div>

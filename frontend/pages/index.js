@@ -4,7 +4,7 @@ import Navbar from '../components/ui/Navbar'
 import Landing from '../components/ui/Landing'
 import Footer from '../components/ui/Footer'
 // import Layout from '../components/layout'
-
+// import Productcard
 
 export default class App extends Component {
     constructor (){

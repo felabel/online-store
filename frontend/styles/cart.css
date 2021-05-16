@@ -1,0 +1,137 @@
+.cart-container{
+    width: 100%;
+    height: auto;
+}
+
+.cart-card-holder{
+    width: 90%;
+    height: auto;
+    margin: 100px auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cart-details:hover{
+    box-shadow: 14px 20px 20px rgba(19, 19, 19, 0.2);
+
+}
+.cart-details{
+    transition: all 0.5s;
+    border-radius: 15px ;
+    width: 60%;
+    height: 35vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 14px 6.5px 15px rgba(0,0,0,0.2);
+    
+    
+}
+.product-holder{
+    border-radius: 15px ;
+
+    height: 100%;
+    width: 40%;
+    background: url("/images/fashion-sneakers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-info{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: cyan; */
+    
+}
+.product-info-text{
+    width: 65%;
+    padding:20px;
+    /* background-color: blue; */
+
+}
+.desc{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+.price{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.name{
+    font-size: 18px;
+
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+}
+.product-info-quanity{
+    padding: 40px 10px;
+
+    width: 25%;
+    /* background-color: chartreuse; */
+    
+}
+input{
+    margin: 0px 5px;
+    padding: 5px;
+    width: 50px;
+    border-radius: 7px;
+    border: 1px solid tomato;
+    outline: none;
+}
+.remove-from-cart{
+    margin-top: 60px;
+    margin-left: 30px;
+    padding: 8px 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.remove-from-cart:hover{
+    /* transform: translate(-50%); */
+    animation: rotate 0.7s linear;
+    background-color: red;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.cart-summary-container{
+    border-radius: 15px ;
+
+    width: 35%;
+    height: 40vh;
+    border: 1px solid yellow;
+}
+@media screen and (max-width:600px){
+    .cart-card-holder{
+        /* flex-direction: column; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        border: 3px solid orangered;
+    }
+    .cart-details{
+        width: 80%;
+    }
+    .cart-summary-container{
+        margin-top: 20px;
+        width: 60%;
+        background-color: yellow;
+        height: 30vh;
+    }
+}

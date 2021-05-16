@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import {Component} from 'react'
+import Productcard from '../ui/Productcard'
  
 
 export default class Landing extends Component {
@@ -21,7 +22,9 @@ export default class Landing extends Component {
                             </Link>
                         </div>
                     </div>
-                    <div className='image'><img src='/images/white-blazer.png' width='100%' height='100%'/></div>
+                    <div className='image'>
+                        {/* <img src='/images/white-blazer.png' width='100%' height='100%'/> */}
+                    </div>
 
                 </div>
                 <div className='collection-top'>
@@ -46,66 +49,7 @@ export default class Landing extends Component {
                     </div>
                     
                 </div>
-                <div className='collection-div'>
-                    {/* <div className='collection-pics'> */}
-                        <div className='collection-pics-div'>
-                            <div className='product-image'>
-                                <div className='image-container'>
-                                    <div className='product-image-pic'></div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div className='product-details'>
-                                <p className='product-name product-ndp'>Sneakers</p>
-                                <p className='product-description  product-ndp'>Female Fashion Sneakers</p>
-                                <div className='price-and-cart'>
-                                 <span className='product-price  product-ndp'>$15.25</span>
-                                    <span className='cta-add-to-cart cta-button'>Add To Cart</span>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                        <div className='collection-pics-div'>
-                        <div className='product-image'>
-                                <div className='image-container'>
-                                    <div className='product-image-pic'></div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div className='product-details'>
-                                <p className='product-name product-ndp'>Sneakers</p>
-                                <p className='product-description  product-ndp'>Female Fashion Sneakers</p>
-                                <div className='price-and-cart'>
-                                 <span className='product-price  product-ndp'>$15.25</span>
-                                    <span className='cta-add-to-cart cta-button'>Add To Cart</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div className='collection-pics-div'>
-                        <div className='product-image'>
-                                <div className='image-container'>
-                                    <div className='product-image-pic'></div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div className='product-details'>
-                                <p className='product-name product-ndp'>Sneakers</p>
-                                <p className='product-description  product-ndp'>Female Fashion Sneakers</p>
-                                <div className='price-and-cart'>
-                                 <span className='product-price  product-ndp'>$15.25</span>
-                                    <span className='cta-add-to-cart cta-button'>Add To Cart</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-
-                    {/* </div> */}
-                </div>
+                <Productcard />
                 <div className='collection-top'>
                     <p className='season collection-p'>New Arrival</p>
                     <p className='line'></p>
@@ -120,71 +64,15 @@ export default class Landing extends Component {
                     </div>
 
                 </div>
+                {/* products */}
+                
                 <div className='collection-top'>
                     <p className='season collection-p'>Top Categories</p>
                     <p className='line'></p>
                     <p className='season top'>Our Top Categories</p>
                 </div>
-                <div className='collection-div'>
-                    {/* <div className='collection-pics'> */}
-                        <div className='collection-pics-div'>
-                            <div className='product-image'>
-                                <div className='image-container'>
-                                    <div className='product-image-pic'></div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div className='product-details'>
-                                <p className='product-name product-ndp'>Sneakers</p>
-                                <p className='product-description  product-ndp'>Female Fashion Sneakers</p>
-                                <div className='price-and-cart'>
-                                 <span className='product-price  product-ndp'>$15.25</span>
-                                    <span className='cta-add-to-cart cta-button'>Add To Cart</span>
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                        <div className='collection-pics-div'>
-                        <div className='product-image'>
-                                <div className='image-container'>
-                                    <div className='product-image-pic'></div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div className='product-details'>
-                                <p className='product-name product-ndp'>Sneakers</p>
-                                <p className='product-description  product-ndp'>Female Fashion Sneakers</p>
-                                <div className='price-and-cart'>
-                                 <span className='product-price  product-ndp'>$15.25</span>
-                                    <span className='cta-add-to-cart cta-button'>Add To Cart</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div className='collection-pics-div'>
-                        <div className='product-image'>
-                                <div className='image-container'>
-                                    <div className='product-image-pic'></div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div className='product-details'>
-                                <p className='product-name product-ndp'>Sneakers</p>
-                                <p className='product-description  product-ndp'>Female Fashion Sneakers</p>
-                                <div className='price-and-cart'>
-                                 <span className='product-price  product-ndp'>$15.25</span>
-                                    <span className='cta-add-to-cart cta-button'>Add To Cart</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-
-                    {/* </div> */}
-                </div>
+                <Productcard />
+     
             </div>
         
       )

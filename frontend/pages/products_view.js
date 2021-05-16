@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import Navbar from '../components/ui/Navbar'
 import Footer from '../components/ui/Footer'
-import Products from '../components/ui/Products'
+import Productcard from '../components/ui/Productcard'
 
 
 export default class products_view extends Component{
@@ -15,7 +15,8 @@ export default class products_view extends Component{
                 {/* <Products />
                 <Products />
                 <Products /> */}
-                <Products />
+                <Productcard />
+                
                 <Footer />
             </section>
         )
